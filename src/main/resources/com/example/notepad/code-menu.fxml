@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.notepad.CodeMenu">
+   <PasswordField fx:id="codeBox" layoutX="226.0" layoutY="128.0"/>
+   <Label layoutX="266.0" layoutY="105.0" text="Введите код"/>
+   <Button layoutX="323.0" layoutY="175.0" mnemonicParsing="false" onAction="#onEnterCodeButtonClick" text="Ввести"/>
+</AnchorPane>

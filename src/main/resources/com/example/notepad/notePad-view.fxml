@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.notepad.NotePadController">
+   <children>
+      <TextField fx:id="noteField" layoutX="26.0" layoutY="139.0" promptText="Новая заметка" />
+      <Button fx:id="addNoteButton" layoutX="26.0" layoutY="174.0" mnemonicParsing="false" onAction="#clickAddNoteButton" text="Добавить заметку" />
+      <Button fx:id="delNoteButton" layoutX="26.0" layoutY="211.0" mnemonicParsing="false" onAction="#clickDelNoteButton" text="Удалить заметку" />
+      <ListView fx:id="listOfNotes" layoutX="207.0" layoutY="24.0" prefHeight="357.0" prefWidth="341.0" />
+   </children>
+</AnchorPane>
